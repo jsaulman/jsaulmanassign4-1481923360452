@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jsaulmanassign4
+  host: jsaulmanassign4
+  disk_quota: 1024M
+  services:
+  - jsaulmanassign4-cloudantNoSQLDB
+  - jsaulmanassign4-iotf-service
